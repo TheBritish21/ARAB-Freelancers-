@@ -1,0 +1,345 @@
+/***reset css**/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #091E42;
+    height: 70px;
+    padding-top: 10px;
+}
+
+.hdr{
+    display: inline-block;
+}
+
+.hdrlist{
+    display: inline-block;
+    text-align: right;
+    margin-left: 950px;
+    
+}
+
+.header ul{
+    list-style-type: none;   
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+    
+}
+
+.header li{
+    text-decoration: none;
+    display: inline-block;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header h1{
+    color: white;
+    font-size: 25px;
+    font-family: Verdana;
+    display: inline-block;
+    margin: 10px 0px 0px 5px;
+
+}
+
+.profile-pic{
+  text-align: center;
+  
+}
+.profile-pic img{
+    border-radius: 70% ;
+    width: 200px;
+    height: 200px;
+    margin: 10px 0px;
+
+}
+
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center
+}
+.content h3{
+    font-weight:normal ;
+}
+
+.content .portfolio h1 {
+    font-size: 20px;
+    margin-top: 50px;
+
+} 
+
+.portfolio img{
+    width:90%; height: 800px;
+    margin: 10px 10px;
+    padding: 20px 25px;
+}
+
+.about{
+    margin: 0 10px 10px 10px;
+}
+.about h1,p{
+    font-family: Tahoma;
+
+}
+p{
+    color: red;
+    text-align: left;
+}
+
+.content .contact{
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: -30px;
+    padding: 20px 0;
+
+}
+.contact form{
+    padding: 20px 20px 0;
+}
+
+.contact form input,textarea{
+    margin-bottom: 12px;
+
+}
+.contact h1{
+    color: cornflowerblue;
+}
+.contact button{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+/***
+.contact input[type="email"]{
+    background-color: darkgoldenrod;
+}
+***/
+
+/**sign up page*/
+.sign{
+    text-align: right;
+    font-weight: bold;
+    margin: 5px 55px 10px 0;
+    color:blue ;
+}
+.sign a{
+    color: #36063d;
+}
+.SignIn{
+    margin-right: 8px;
+}
+
+
+
+
+/**index styling**/
+
+.jumbotron{
+    margin-bottom: 60px;
+    background-color: #e0e5e9
+}
+
+.fstHead{
+    display: inline;
+}
+.fstHead h2,p{
+    color:#36063d;
+    text-align: center;
+    font-family: Cairo,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;}
+
+.fstHead h2{
+    font-size: 35px;
+}
+.fstHead p{
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+
+/*search style*/
+.result{
+    background-color: rgb(207, 204, 204);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    color: #091E42;
+    
+}
+.result a{
+    color:#36063d;
+}
+.result a:hover{
+    color:rgb(240, 73, 23);
+}
+.result img:hover{
+    width:100px;
+    height: 100px;
+}
+
+
+.FstImg{
+    width:50% !important;
+    float: right;
+    margin-left: 15px;
+
+}
+h6{
+    text-align: center;
+    color: #36063d;
+    font-size: 20px;
+}
+
+
+
+.row{
+    margin: 250px 20px;
+    
+}
+
+.cardF{
+    height: 250px;
+    margin: 0 30px;  
+    border: #e0e5e9 solid 3px; 
+    box-shadow: #dce1e6 3px 5px 10px; 
+
+}
+
+.card-text{
+    text-align: left;
+}
+.ours{
+    font-size: 20px;
+}
+.ours a{
+    margin-top: 67px;
+}
+
+/*how to section*/
+.HowTO{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-group{
+    width: 90%;
+    margin-left: 60px;
+}
+.card-group .card{
+    
+    height: 530px;
+    margin: 0 10px;
+    border:1px solid #ced4da !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 5px 10px #888888;
+}
+.card-group .card img{
+    width: 65%;
+    text-align: center !important;
+    margin:3px 0 5px 45px;
+   
+}
+
+.indexbtm{
+    width: 95%;
+    height: 300px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+/*Footer Style*/
+.footer{
+    text-align: center;
+    height: 380px;
+    width: 100% !important;
+    color: #fff;
+    background-color:#2d0033 ;
+    font-family: Verdana;
+    padding: 25px 0 5px 5%;
+    margin: 100px 100px 0 0;
+    font-family: Cairo,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.ftLinks{
+    display:inline-block;
+    margin-right: 30px;
+}
+
+
+
+hr{
+    width: 200px;
+    border-top: 1px solid white;
+    margin:10px 0 ;
+}
+.ftLinks li, a{
+    text-align: left !important;
+    list-style-type: none;
+    color: #e0e0e0;
+    font-size: 13px;
+    margin-top: 7px;
+    
+}
+
+
+.ftnav{
+    display:inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.ftnav li, a{
+    text-align: left !important;
+    list-style-type: none;
+    color: #e0e0e0;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 7px;
+   
+}
+
+.ftnav li, a:hover{
+    color:#b9aeae;
+    text-decoration: none;
+}
+
+li h4{
+    color:#fff;
+    font-size: 15px;
+    
+}
+
+
+.social
+{
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 45px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+    margin-right: 6px;
+}
+
+.ft{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 70px;
+    color: #bdbdbd;
+}
+
